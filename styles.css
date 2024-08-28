@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+.ig-post {
+    height: 800 px;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.post-header {
+    border: dashed red 2px;
+    width: 555px;
+    height: 40px;
+    display: flex;
+    padding: 20px;
+    font-size: 250%;
+
+}
+
+.post-image {
+    border: dashed blue 2px;
+    width: 598px;
+    height: 500px;
+}
+
+.post-image > img {
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;  
+}
+
+.post-icons {
+    border: dashed green 2px;
+    width: 555px;
+    height: 40px;
+    display: flex;
+    padding: 20px;
+    font-size: 250%
+}
+
+.icons-left {
+    padding-right: 60px;
+}
+
+.icons-right {
+    padding-left: 80px;
+}
+
+.post-text {
+    border: dashed cyan 2px;
+    width: 575px;
+    height: 180px;
+    font-family:roboto;
+    font-size: larger ;
+    padding-left: 20px;
+
+}
