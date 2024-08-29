@@ -14,10 +14,21 @@ body {
     border: dashed red 2px;
     width: 555px;
     height: 40px;
+    
     display: flex;
     padding: 20px;
-    font-size: 250%;
+    justify-content: space-between;
+    color: black;
 
+}
+
+.post-header > p {
+    padding-bottom: 40px;
+    
+}
+
+.fab, .fa-solid {
+    font-size: 250%;
 }
 
 .post-image {
@@ -38,15 +49,12 @@ body {
     height: 40px;
     display: flex;
     padding: 20px;
-    font-size: 250%
+    font-size: 250%;
+    justify-content: space-between;
 }
 
-.icons-left {
-    padding-right: 60px;
-}
-
-.icons-right {
-    padding-left: 80px;
+fa-solid fa-ellipsis-vertical {
+    padding-left: 420px;
 }
 
 .post-text {
@@ -58,3 +66,4 @@ body {
     padding-left: 20px;
 
 }
+
